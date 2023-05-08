@@ -7,6 +7,8 @@ This is the Benchmark PyTorch implementation of the paper *"[RenderMe-360: Large
 
 <img src="./docs/teaser.png" width="96%" height="96%">
 
+<img src="./docs/teaser1.gif" width="96%" height="96%">
+
 > 
 >
 > **Abstract:** *Synthesizing high-fidelity head avatars is a central problem for many applications on AR, VR, and Metaverse. While head avatar synthesis algorithms have advanced rapidly, the best ones still face great obstacles in real-world scenarios. One of the vital causes is the inadequate datasets  -- 1) current public datasets can only support researchers to explore high-fidelity head avatars in one or two task directions, such as viewpoint, head pose, hairstyle, or facial expression; 2) these datasets usually contain digital head assets with limited data volume, and narrow distribution over different attributes, such as expressions, ages, and accessories. In this paper, we present {\textbf{RenderMe-360}}, a comprehensive 4D human head dataset to drive advance in head avatar algorithms across different scenarios. RenderMe-360 contains massive data assets, with 250+ million complete head frames and over 800k video sequences from 500 different identities captured by synchronized HD multi-view cameras at 30 fps. It is a large-scale digital library for head avatars with three key attributes: 1) High Fidelity: all subjects are captured by 60 synchronized, high-resolution 2K cameras to collect their portrait data in 360 degrees. 2) High Diversity: The collected subjects vary from different ages, eras, ethnicity, and cultures, providing abundant materials with distinctive styles in appearance and geometry. Moreover, each subject is asked to perform various dynamic motions, such as expressions and head rotations, which further extend the richness of assets. 3) Rich Annotations: the dataset provides annotations with different granularities: cameras' parameters, background matting, scan, 2D as well as 3D facial landmarks, FLAME fitting labeled by semi-auto annotation, and text description.
@@ -17,10 +19,25 @@ Based on the dataset, we build a comprehensive benchmark for head avatar researc
 - 2023.05.09: Technical report, dataset and code will be released in May.
 - 2023.05.08: The project page is created.
 
+
+## Contents
+1. [Features](#features)
+2. [Data Download](#Data Download)
+3. [Benchmark & Model Zoo](#Benchmark&Model Zoo)
+4. [Usage](#Usage)
+5. [Related Works](#Related Works)
+6. [Citation](#citation)
+6. [Acknowlegement](#Acknowlegement)
+
+# Features
+* Scales: RenderMe-360 is a large scale dataset with 500 IDs and 243M frames in total, far exceeds other datasets. A wide diversity including era, ethnicity, accessory and makeup. Each subject capture about 20-30 performance parts in cluding expression, hair, and speech.
+* Realism: Build a multi-video camera capture cylinder called POLICY to capture synchronized multi-view videos. 60 instructive cameras / 2448 × 2048 / 30FPS for video capture. 
+* Granularity: Rich and multimodal annotation far beyond other datasets: face landmark 2d & 3d, front-back matting, FLAME parameters, scan mesh, uv map, action units, appearance annotation and text description. 
+
 ## Data Download
 The dataset will be released in May.
 
-## Benchmark & Model Zoo
+## Benchmark&Model Zoo
 
 We provide for each benchmark the pretrained model, code for training & evaluation reimplementation, and dataset for training.
 
