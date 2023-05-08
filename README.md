@@ -30,9 +30,9 @@ Based on the dataset, we build a comprehensive benchmark for head avatar researc
 6. [Acknowlegement](#Acknowlegement)
 
 # Features
-* Scales: RenderMe-360 is a large scale dataset with 500 IDs and 243M frames in total, far exceeds other datasets. A wide diversity including era, ethnicity, accessory and makeup. Each subject capture about 20-30 performance parts in cluding expression, hair, and speech.
-* Realism: Build a multi-video camera capture cylinder called POLICY to capture synchronized multi-view videos. 60 instructive cameras / 2448 × 2048 / 30FPS for video capture. 
-* Granularity: Rich and multimodal annotation far beyond other datasets: face landmark 2d & 3d, front-back matting, FLAME parameters, scan mesh, uv map, action units, appearance annotation and text description. 
+*  High Fidelity: Build a multi-video camera capture cylinder called POLICY to capture synchronized multi-view videos. 60 instructive cameras / 2448 × 2048 / 30FPS for video capture. 
+* High Diversity: RenderMe-360 is a large scale dataset with 500 IDs and 243M frames in total, far exceeds other datasets. A wide diversity including era, ethnicity, accessory and makeup. Each subject capture about 20-30 performance parts in cluding expression, hair, and speech.
+* Rich Annotations: Rich and multimodal annotation far beyond other datasets: face landmark 2d & 3d, front-back matting, FLAME parameters, scan mesh, uv map, action units, appearance annotation and text description. 
 
 ## Data Download
 The dataset will be released in May.
