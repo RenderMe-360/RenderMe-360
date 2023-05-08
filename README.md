@@ -22,22 +22,22 @@ Based on the dataset, we build a comprehensive benchmark for head avatar researc
 
 ## Contents
 1. [Features](#features)
-2. [Data Download](#Data Download)
-3. [Benchmark & Model Zoo](#Benchmark&Model Zoo)
+2. [Data Download](#Data-Download)
+3. [Benchmark & Model Zoo](#Benchmark-&-Model-Zoo)
 4. [Usage](#Usage)
-5. [Related Works](#Related Works)
+5. [Related Works](#Related-Works)
 6. [Citation](#citation)
 6. [Acknowlegement](#Acknowlegement)
+
 
 # Features
 *  High Fidelity: Build a multi-video camera capture cylinder called POLICY to capture synchronized multi-view videos. 60 instructive cameras / 2448 × 2048 / 30FPS for video capture. 
 * High Diversity: RenderMe-360 is a large scale dataset with 500 IDs and 243M frames in total, far exceeds other datasets. A wide diversity including era, ethnicity, accessory and makeup. Each subject capture about 20-30 performance parts in cluding expression, hair, and speech.
 * Rich Annotations: Rich and multimodal annotation far beyond other datasets: face landmark 2d & 3d, front-back matting, FLAME parameters, scan mesh, uv map, action units, appearance annotation and text description. 
-
 ## Data Download
 The dataset will be released in May.
 
-## Benchmark&Model Zoo
+## Benchmark & Model Zoo
 
 We provide for each benchmark the pretrained model, code for training & evaluation reimplementation, and dataset for training.
 
