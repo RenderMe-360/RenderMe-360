@@ -1,7 +1,7 @@
 # RenderMe-360 Dataset
 [![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg)]() <a href="https://renderme-360.github.io/">
 <img alt="Project" src="https://img.shields.io/badge/-Project%20Page-lightgrey?logo=Google%20Chrome&color=informational&logoColor=white"></a> 
-<a href="https://youtu.be/nIgrtQwkrdg"><img alt="Demo" src="https://img.shields.io/badge/-Demo-ea3323?logo=youtube"></a> 
+<a href="https://youtu.be/L4YTBVg68vM"><img alt="Demo" src="https://img.shields.io/badge/-Demo-ea3323?logo=youtube"></a> 
 
 This is the Benchmark PyTorch implementation of the paper *"[RenderMe-360: Large Digital Asset Library and Benchmark Towards High-fidelity Head Avatars]()"*.
 
