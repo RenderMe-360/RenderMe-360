@@ -1,5 +1,5 @@
 # RenderMe-360 Dataset
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg)]() <a href="https://renderme-360.github.io/">
+[![arXiv](https://img.shields.io/badge/arXiv-2305.13353-b31b1b.svg)]() <a href="https://renderme-360.github.io/">
 <img alt="Project" src="https://img.shields.io/badge/-Project%20Page-lightgrey?logo=Google%20Chrome&color=informational&logoColor=white"></a> 
 <a href="https://youtu.be/L4YTBVg68vM"><img alt="Demo" src="https://img.shields.io/badge/-Demo-ea3323?logo=youtube"></a> 
 
@@ -15,8 +15,10 @@ This is the Benchmark PyTorch implementation of the paper *"[RenderMe-360: Large
 
 ## Updates
 
-- 2023.05.09: Technical report, dataset and code will be released in May.
-- 2023.05.08: The project page is created.
+- 2023.05.24: Data and code will be released in June. Please stay tuned!
+- 2023.05.24: :fire::fire::fire:**The [technical report](https://arxiv.org/abs/2305.13353) is released!**:fire::fire::fire:
+- 2023.05.10: The [demo video](https://www.youtube.com/watch?v=L4YTBVg68vM) is uploaded.
+- 2023.05.08: The [project page](https://renderme-360.github.io/) is created.
 
 
 ## Contents
@@ -62,13 +64,13 @@ We provide for each benchmark the pretrained model, code for training & evaluati
 | SSPNerf   | Talking Head              | [OneDrive]() | [benchmarks/SSPNerf]()       | [OneDrive]()                |
 
 ## Usage
-The code will be released in May
+The code will be released in June!
 
 ## TODO List
 
 - [ ] Release Code and pretrained model
 - [ ] Release Dataset
-- [ ] Technical Report
+- [x] Technical Report
 - [x] Project page
 
 
@@ -78,9 +80,9 @@ The code will be released in May
 ```bibtex
 @article{2023renderme360,
       title={RenderMe-360: Large Digital Asset Library and Benchmark Towards High-fidelity Head Avatars"}, 
-      author={},
+      author={Pan, Dongwei and Zhuo, Long and Piao, Jingtan and Luo, Huiwen and Cheng, Wei and Wang, Yuxin and Fan, Siming and Liu, Shengqi and Yang, Lei and Dai, Bo and Liu, Ziwei and Loy, Chen Change and Qian, Chen and Wu, Wayne and Lin, Dahua and Lin, Kwan-Yee},
       journal   = {arXiv preprint},
-      volume    = {},
+      volume    = {arXiv:2305.13353},
       year    = {2023}
 ```
-## Acknowlegement
+<!-- ## Acknowlegement -->
