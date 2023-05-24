@@ -3,7 +3,7 @@
 <img alt="Project" src="https://img.shields.io/badge/-Project%20Page-lightgrey?logo=Google%20Chrome&color=informational&logoColor=white"></a> 
 <a href="https://youtu.be/L4YTBVg68vM"><img alt="Demo" src="https://img.shields.io/badge/-Demo-ea3323?logo=youtube"></a> 
 
-This is the Benchmark PyTorch implementation of the paper *"[RenderMe-360: Large Digital Asset Library and Benchmark Towards High-fidelity Head Avatars]()"*.
+This is the Benchmark PyTorch implementation of the paper *"[RenderMe-360: A Large Digital Asset Library and Benchmarks Towards High-fidelity Head Avatars]()"*.
 
 <img src="./docs/teaser.png" width="96%" height="96%">
 
