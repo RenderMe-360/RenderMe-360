@@ -7,7 +7,9 @@ This is the Benchmark PyTorch implementation of the paper *"[RenderMe-360: A Lar
 
 <img src="./docs/teaser.png" width="96%" height="96%">
 
-<img src="./docs/teaser1.gif" width="96%" height="96%">
+<!--<img src="./docs/teaser1.gif" width="96%" height="96%">-->
+
+https://github.com/RenderMe-360/RenderMe-360/assets/132734896/0daa921a-93c7-4ddc-9b73-0f2974cbb523
 
 > 
 >
