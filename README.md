@@ -38,7 +38,7 @@ https://github.com/RenderMe-360/RenderMe-360/assets/132734896/0daa921a-93c7-4ddc
 * High Diversity: RenderMe-360 is a large scale dataset with 500 IDs and 243M frames in total, far exceeds other datasets. A wide diversity including era, ethnicity, accessory and makeup. Each subject capture about 20-30 performance parts in cluding expression, hair, and speech.
 * Rich Annotations: Rich and multimodal annotation far beyond other datasets: face landmark 2d & 3d, front-back matting, FLAME parameters, scan mesh, uv map, action units, appearance annotation and text description. 
 ## Data Download
-Please go to our [Download Page](https://renderme-360.github.io/inner-download.html#Download) !
+The dataset will be released soon.
 
 ## Benchmark & Model Zoo
 
