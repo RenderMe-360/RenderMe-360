@@ -17,7 +17,7 @@ https://github.com/RenderMe-360/RenderMe-360/assets/132734896/0daa921a-93c7-4ddc
 
 ## Updates
 - 2023.09.22: 🎉 Our paper has been accepted by NeurIPS 2023 D&B Track.
-- 2023.09.21: :fire::fire::fire:**Data of 21 subjects have been released! [Download Link](https://opendatalab.com/OpenXDLab/RenderMe-360)**:fire::fire::fire:
+- 2023.09.21: :fire::fire::fire:**Data of 21 subjects have been released! [Download Link](https://renderme-360.github.io/inner-download.html#Download)**:fire::fire::fire:
 - 2023.05.24: Data and code will be released around September. Please stay tuned!
 - 2023.05.24: :fire::fire::fire:**The [technical report](https://arxiv.org/abs/2305.13353) is released!**:fire::fire::fire:
 - 2023.05.10: The [demo video](https://www.youtube.com/watch?v=L4YTBVg68vM) is uploaded.
