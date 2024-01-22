@@ -82,7 +82,7 @@ The code will be released around September!
 
 ```bibtex
 @article{2023renderme360,
-      title={RenderMe-360: Large Digital Asset Library and Benchmark Towards High-fidelity Head Avatars"}, 
+      title={RenderMe-360: Large Digital Asset Library and Benchmark Towards High-fidelity Head Avatars}, 
       author={Pan, Dongwei and Zhuo, Long and Piao, Jingtan and Luo, Huiwen and Cheng, Wei and Wang, Yuxin and Fan, Siming and Liu, Shengqi and Yang, Lei and Dai, Bo and Liu, Ziwei and Loy, Chen Change and Qian, Chen and Wu, Wayne and Lin, Dahua and Lin, Kwan-Yee},
       journal   = {arXiv preprint},
       volume    = {arXiv:2305.13353},
