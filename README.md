@@ -16,6 +16,7 @@ https://github.com/RenderMe-360/RenderMe-360/assets/132734896/0daa921a-93c7-4ddc
 > **Abstract:** *Synthesizing high-fidelity head avatars is a central problem for many applications on AR, VR, and Metaverse. While head avatar synthesis algorithms have advanced rapidly, the best ones still face great obstacles in real-world scenarios. One of the vital causes is the inadequate datasets  -- 1) current public datasets can only support researchers to explore high-fidelity head avatars in one or two task directions, such as viewpoint, head pose, hairstyle, or facial expression; 2) these datasets usually contain digital head assets with limited data volume, and narrow distribution over different attributes, such as expressions, ages, and accessories. In this paper, we present *RenderMe-360*, a comprehensive 4D human head dataset to drive advance in head avatar algorithms across different scenarios. RenderMe-360 contains massive data assets, with 250+ million complete head frames and over 800k video sequences from 500 different identities captured by synchronized HD multi-view cameras at 30 fps. It is a large-scale digital library for head avatars with three key attributes: 1) High Fidelity: all subjects are captured by 60 synchronized, high-resolution 2K cameras to collect their portrait data in 360 degrees. 2) High Diversity: The collected subjects vary from different ages, eras, ethnicity, and cultures, providing abundant materials with distinctive styles in appearance and geometry. Moreover, each subject is asked to perform various dynamic motions, such as expressions and head rotations, which further extend the richness of assets. 3) Rich Annotations: the dataset provides annotations with different granularities: cameras' parameters, background matting, scan, 2D as well as 3D facial landmarks, FLAME fitting labeled by semi-auto annotation, and text description. Based on the dataset, we build a comprehensive benchmark for head avatar research, with 16 state-of-the-art methods performed on five main tasks: novel view synthesis, novel expression synthesis, hair rendering, hair editing, and talking head generation. Our experiments uncover the strengths and weaknesses of state-of-the-art methods, showing that extra efforts are needed for them to perform in such diverse scenarios. RenderMe-360 opens the door for future exploration in modern head avatars. All of the data, code, and models will be publicly available at https://renderme-360.github.io/.* <br>
 
 ## Updates
+- 2024.05.01: Please refer to [RenderMe-360 Benchmark](https://github.com/RenderMe-360/RenderMe-360) to check our released benchmark code, training data and model!!
 - 2023.09.22: 🎉 Our paper has been accepted by NeurIPS 2023 D&B Track.
 - 2023.09.21: :fire::fire::fire:**Data of 21 subjects have been released! [Download Link](https://renderme-360.github.io/inner-download.html#Download)**:fire::fire::fire:
 - 2023.05.24: Data and code will be released around September. Please stay tuned!
@@ -43,35 +44,14 @@ https://github.com/RenderMe-360/RenderMe-360/assets/132734896/0daa921a-93c7-4ddc
 
 ## Benchmark & Model Zoo
 
-We provide for each benchmark the pretrained model, code for training & evaluation reimplementation, and dataset for training.
-
-| Benchmark                          | Aspect                           | Pretrained Model                                                | Reimplementation                    | Dataset      |
-| ------------------------------- | ------------------------------- | ------------------------------------------------------------ | ---------------- | -------------------------------------------- |
-| instant-ngp   | Case-specific NVS / Hair Rendering      | [91MB/model x 40]() | [benchmarks/instant-ngp](benchmarks/instant-ngp/README.md) | [400MB]()                |
-| NeuS          | Case-specific NVS / Hair Rendering      | [OneDrive]() | [benchmarks/NeuS]() | [OneDrive]()                |
-| MVP        | Case-specific NVS / Hair Rendering         | [OneDrive]() | [benchmarks/MVP]() | [OneDrive]()                |
-| NV   | Case-specific NVS / Hair Rendering               | [OneDrive]() | [benchmarks/NV]() | [OneDrive]()                |
-| IBRNet   | Generalizable NVS                            | [OneDrive]() | [benchmarks/IBRNet]() | [OneDrive]()                |
-| KeypointNerf   | Generalizable NVS              | [OneDrive]() | [benchmarks/KeypointNerf]()       | [OneDrive]()                |
-| VisionNerf   | Generalizable NVS                | [OneDrive]() | [benchmarks/VisionNerf]() |  [OneDrive]()  |
-| NerFace   | Case-specific Novel Expression Synthesis              | [OneDrive]() | [benchmarks/NerFace]()       | [OneDrive]()                |
-| IM Avatar   | Case-specific Novel Expression Synthesis              | [OneDrive]() | [benchmarks/IMavatar]()       | [OneDrive]()                |
-| Point-Avatar   | Case-specific Novel Expression Synthesis              | [OneDrive]() | [benchmarks/point-avatar]()       | [OneDrive]()                |
-| NSFF   | Hair Rendering              | [OneDrive]() | [benchmarks/NSFF]()       | [OneDrive]()                |
-| NRNerf   | Hair Rendering              | [OneDrive]() | [benchmarks/NRNerf]()       | [OneDrive]()                |
-| e4e   | Hair Editting              | [OneDrive]() | [benchmarks/e4e]()       | [OneDrive]()                |
-| PTI   | Hair Editting              | [OneDrive]() | [benchmarks/PTI]()       | [OneDrive]()                |
-| Restyle-e4e   | Hair Editting              | [OneDrive]() | [benchmarks/Restyle-e4e]()       | [OneDrive]()                |
-| Hyperstyle   | Hair Editting              | [OneDrive]() | [benchmarks/Hyperstyle]()       | [OneDrive]()                |
-| ADNerf   | Talking Head              | [OneDrive]() | [benchmarks/ADNerf]()       | [OneDrive]()                |
-| SSPNerf   | Talking Head              | [OneDrive]() | [benchmarks/SSPNerf]()       | [OneDrive]()                |
+We provide for each benchmark the pretrained model, code for training & evaluation reimplementation, and dataset for training. Refer to [RenderMe-360-Benchmark](https://github.com/RenderMe-360/RenderMe-360-Benchmark).
 
 ## Usage
 The code will be released around September!
 
 ## TODO List
 
-- [ ] Release Code and pretrained model
+- [x] Release Code and pretrained model
 - [ ] Release Dataset
 - [x] Technical Report
 - [x] Project page
@@ -81,11 +61,12 @@ The code will be released around September!
 ## Citation
 
 ```bibtex
-@article{2023renderme360,
-      title={RenderMe-360: Large Digital Asset Library and Benchmark Towards High-fidelity Head Avatars}, 
+@article{pan2024renderme,
+      title={RenderMe-360: A Large Digital Asset Library and Benchmarks Towards High-fidelity Head Avatars},
       author={Pan, Dongwei and Zhuo, Long and Piao, Jingtan and Luo, Huiwen and Cheng, Wei and Wang, Yuxin and Fan, Siming and Liu, Shengqi and Yang, Lei and Dai, Bo and Liu, Ziwei and Loy, Chen Change and Qian, Chen and Wu, Wayne and Lin, Dahua and Lin, Kwan-Yee},
-      journal   = {arXiv preprint},
-      volume    = {arXiv:2305.13353},
-      year    = {2023}
+      journal={Advances in Neural Information Processing Systems},
+      volume={36},
+      year={2024}
+}
 ```
 <!-- ## Acknowlegement -->
